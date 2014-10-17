@@ -11,22 +11,15 @@ public class Polvo {
     public Polvo() {
         pulpo = patacas = 0;
     }
-
     public Polvo(double pulpo, double patacas) {
         this.pulpo = pulpo;
         this.patacas = patacas;
-    }
-
-    public int numClientes(int persoas) {
-        this.persoas = persoas;
-        return persoas;
     }
 
     //Metodos de aceso
     public void setPulpo(double pul) {
         pulpo = pulpo + pul;
     }
-
     public double getPulpo() {
         return pulpo;
     }
@@ -34,7 +27,6 @@ public class Polvo {
     public void setPatacas(double pat) {
         patacas = patacas + pat;
     }
-
     public double getPatacas() {
         return patacas;
     }
