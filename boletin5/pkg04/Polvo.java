@@ -32,12 +32,12 @@ public class Polvo {
     }
 
     public double cuenta(){
-        int x1=(int) (3 * patacas);
-        int x2=(int) (3 * pulpo / 2);
-        if (x1 < x2) {
-            return x1;
+        int a =(int) (3 * patacas);
+        int b =(int) (3 * pulpo / 2);
+        if (a < b) {
+            return a;
         } else {
-            return x2;
+            return b;
         }
     }
 }
