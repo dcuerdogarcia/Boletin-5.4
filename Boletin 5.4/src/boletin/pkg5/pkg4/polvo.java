@@ -5,10 +5,7 @@
  */
 package boletin.pkg5.pkg4;
 
-/**
- *
- * @author User
- */
+
 public class polvo {
 
     private double pulpo;
